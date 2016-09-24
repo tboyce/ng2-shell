@@ -1,0 +1,28 @@
+{
+  "name": "ng2-shell",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tboyce/ng2-shell.git"
+  },
+  "scripts": {
+    "dev": "tsc --watch",
+    "test": "karma start",
+    "prepublish": "tsc"
+  },
+  "main": "shell.component.js",
+  "typings": "./shell.component.d.ts",
+  "author": "tboyce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tboyce/ng2-shell/issues"
+  },
+  "homepage": "https://github.com/tboyce/ng2-shell#readme",
+  "devDependencies": {
+    "@angular/core": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/core": "^2.0.0"
+  }
+}
